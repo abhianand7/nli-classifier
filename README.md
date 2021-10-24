@@ -1,4 +1,5 @@
 [![Pylint](https://github.com/abhianand7/nli-classifier/actions/workflows/pylint.yml/badge.svg?branch=master)](https://github.com/abhianand7/nli-classifier/actions/workflows/pylint.yml)
+[![Labeler](https://github.com/abhianand7/nli-classifier/actions/workflows/label.yml/badge.svg)](https://github.com/abhianand7/nli-classifier/actions/workflows/label.yml)
 
 ### Approach
 1. Sentence Representation in Vector (1024 vector dimension)
