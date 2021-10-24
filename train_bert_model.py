@@ -1,3 +1,5 @@
+from typing import Union
+import pickle
 import keras.backend as K
 from keras.models import Model
 from keras.layers import Input, Reshape
@@ -14,11 +16,7 @@ from sklearn.preprocessing import LabelEncoder
 import pandas as pd
 import numpy as np
 import swifter
-import pickle
 from keras.models import load_model
-
-from typing import Union
-
 from prepare_data import get_train_test_data
 
 
