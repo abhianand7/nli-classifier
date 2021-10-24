@@ -1,3 +1,5 @@
+[![Pylint](https://github.com/abhianand7/nli-classifier/actions/workflows/pylint.yml/badge.svg?branch=master)](https://github.com/abhianand7/nli-classifier/actions/workflows/pylint.yml)
+
 ### Approach
 1. Sentence Representation in Vector (1024 vector dimension)
     1. The target is to represent each sentence into a vector of same length
