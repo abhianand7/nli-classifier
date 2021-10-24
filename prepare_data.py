@@ -1,14 +1,14 @@
+from functools import partial
+from typing import Union
 import torch
 import tensorflow as tf
 from transformers import BertTokenizer, TFBertModel
 import pandas as pd
-from functools import partial
+
 from sklearn.preprocessing import LabelEncoder
 from tensorflow.keras.layers.experimental.preprocessing import TextVectorization
 import numpy as np
 import swifter
-from utilities import parallelize_task_by_process
-from typing import Union
 from sentence_transformers import SentenceTransformer
 
 
